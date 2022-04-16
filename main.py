@@ -6,5 +6,7 @@
 
 from bigo import BigO
 
+list1 = [5, 2, 5, 6, 7, 5, 2]
 
 test1 = BigO()
+test1.find1(list1,6)
