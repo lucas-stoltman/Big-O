@@ -29,8 +29,9 @@ class BigO:
     #
     # TODO
     # The "in" built-in is used to determine if the val is in the unsorted list
+    @staticmethod
     def find3(self, val: int):
-        print(val in self)
+        return val in self
     #
     # # TODO
     # # This function requires the list to be sorted before it is called. A binary search is

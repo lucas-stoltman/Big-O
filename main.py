@@ -10,3 +10,5 @@ list1 = [5, 2, 5, 6, 7, 5, 2]
 
 test1 = BigO()
 print(test1.find1(list1, 6))
+
+print(test1.find1(list1, 6))
