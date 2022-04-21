@@ -16,7 +16,6 @@ class BigO:
                 return True
         return False
 
-    # # TODO find2()
     # # A deep copy is made of the list; the copied list is then sorted using
     # # the "sort" built- in function and then a binary search is performed on
     # # the list to find if the val is in the list
