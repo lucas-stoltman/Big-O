@@ -14,11 +14,16 @@ print("---------------------------")
 
 min_val = 1
 max_val = 100
-target = 100
+
+# list must be sorted before using either of these values
+lower_bound = min_val
+upper_bound = max_val+1
+
+target = lower_bound
 test1 = BigO()
 
 list1 = list(range(min_val, max_val+1))
-random.shuffle(list1)
+# random.shuffle(list1)
 print(f"list1: {list1}")
 
 print("\n---", "find1", "---", )
