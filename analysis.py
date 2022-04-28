@@ -4,7 +4,7 @@
 # CSS 340 A, Dimpsey
 # Version: 1.0
 
-from bigo import BigO
+import bigo
 import time
 import random
 
@@ -14,7 +14,6 @@ max_val = 1
 
 while i <= 8:
     target = random.randint(min_val, max_val)
-    bigo = BigO()
 
     list1 = list(range(min_val, max_val + 1))
 
