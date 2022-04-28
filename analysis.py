@@ -19,10 +19,10 @@ while i <= 8:
     list1 = list(range(min_val, max_val + 1))
 
     # sort the list for find4()
-    # list1.sort()
+    list1.sort()
 
     tic = time.perf_counter_ns()
-    bigo.find1(list1, target)
+    bigo.find4(list1, target)
     toc = time.perf_counter_ns()
     # print(max_val, "\t{:,}".format(toc - tic))
     # print(max_val)

@@ -4,7 +4,7 @@
 # CSS 340 A, Dimpsey
 # Version: 1.0
 
-from bigo import BigO
+import bigo
 import time
 import random
 
@@ -20,7 +20,6 @@ lower_bound = min_val
 upper_bound = max_val+1
 
 target = random.randint(min_val, max_val)
-bigo = BigO()
 
 print("Initializing list...")
 tic = time.perf_counter_ns()
