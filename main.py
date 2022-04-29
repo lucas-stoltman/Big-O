@@ -19,7 +19,7 @@ max_val = 100
 lower_bound = min_val
 upper_bound = max_val+1
 
-target = random.randint(min_val, max_val)
+target = random.randint(min_val, max_val*2)
 
 print("Initializing list...")
 tic = time.perf_counter_ns()
@@ -27,9 +27,10 @@ list1 = list(range(min_val, max_val+1))
 random.shuffle(list1)
 toc = time.perf_counter_ns()
 
+print(f"[{min_val} ... {max_val}]")
+print("List built in {:,}".format(toc - tic), "nanoseconds\n")
 
-# print(f"list1: {list1}")
-print("\nList built in {:,}".format(toc - tic), "nanoseconds")
+print(f"target: {target}")
 
 
 # --- find1() ---
